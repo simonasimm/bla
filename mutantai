@@ -1,0 +1,94 @@
+.grupe {
+	width: 650px;
+	margin-bottom: 5px;
+	letter-spacing: -1px;
+	font: 30px Playfair Display;
+	font-weight: 900;
+	color: #fff;
+	padding: 30px;
+	text-align: justify;
+	text-transform: uppercase;
+}
+.grupe sub {
+	font: 7px Playfair Display;
+	letter-spacing: 0px;
+	display: block;
+}
+.ori {
+	width: 200px;
+	height: 320px;
+	border-style: solid solid solid solid;
+	border-width: 5px;
+	border-color: #717499;
+}
+.smt {
+	display: block;
+	width: 200px;
+	height: 320px;
+}
+.per {
+	background: transparent;
+	position: relative;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	width: 200px;
+	height:0;
+	transition: .8s ease;
+	-moz-filter: .8s ease;
+	-webkit-filter: .8s ease;
+	-ms-filter: .8s ease;
+	-o-filter: .8s ease;
+	overflow: hidden;
+}
+.ori:hover .per {
+	bottom: 100%;
+	height: 100%;
+}
+.seidas {
+	background: rgba(255, 255, 255, 0.9);
+	width: 200px;
+	height: 320px;
+	overflow: auto;
+}
+.in {
+	width: 180px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 8px;
+	color: #9a9a9a;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 130%;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #b3b3b3;
+}
+.aprasymas {
+	width: 160px;
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+	line-height: 120%;
+	font-size: 9px;
+	color: #9fa1bd;
+	overflow: auto;
+}
+.apa {
+	width: 210px;
+	height: 40px;
+	padding-top: 2px;
+	background-color: #347B91;
+	padding-bottom: 2px;
+	text-align: center;
+	line-height: 100%;
+	font: 11px Playfair Display;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	overflow: hidden;
+}
